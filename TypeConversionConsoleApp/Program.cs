@@ -1,7 +1,7 @@
 ﻿Console.Write("What is your age: ");
 string? ageText = Console.ReadLine();
 
-bool isAgeValid = int.TryParse(ageText, out int age);
+bool _ = int.TryParse(ageText, out int age);
 
 int ageIn25 = age + 25;
 int age25Ago = age - 25;
